@@ -1,0 +1,41 @@
+/* #region ==== FONTS       ================ */
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Italic.woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Bold-Italic.woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+/* #endregion */
+
+/* #region ==== VARIABLES           ======== */
+
+/* #endregion */
