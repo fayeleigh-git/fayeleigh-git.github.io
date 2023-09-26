@@ -1,0 +1,68 @@
+/* #region FONTS ====================== */
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Italic.woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: 
+        local('OpenDyslexic'),
+        url('./css/fonts/OpenDyslexic-Bold-Italic.woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+/* #endregion */
+
+/* #region VARIABLES ================== */
+:root {
+    /* #region Colors ================= */ /*Default color scheme: dark */
+    /* =========== Initial hues ======= */
+    --hue-fav: 235;
+    --hue-grad-left: 220;
+    --hue-grad-right: 270;
+    /* =========== Header ============= */
+    --grad-header-left: hsla(var(--hue-grad-left), 40%, 10%, 0.95);
+    --grad-header-right: hsla(var(--hue-grad-right), 40%, 10%, 0.95);
+    --grad-header: linear-gradient(to right, var(--grad-header-left), var(--grad-header-right));
+    --color-logo: hsl(var(--hue-fav), 10%, 85%);
+    /* =========== Body =============== */
+    --grad-body-left: hsl(var(--hue-grad-left), 40%, 15%);
+    --grad-body-right: hsl(var(--hue-grad-right), 40%, 15%);
+    --grad-body: linear-gradient(to right, var(--grad-header-left), var(--grad-header-right));
+    --color-text-title: hsl(var(--hue-grad-left), 10%, 85%);
+    /* --color-text-subtitle: hsl(var(--hue-grad-left), 15%, 65%); */
+    --color-text: hsl(var(--hue-grad-left), 15%, 65%);
+    /* =========== Hover =============== */
+    --color-hover-nav: hsl(var(--hue-grad-left), 10%, 85%);
+    --color-hover: hsla(var(--hue-fav), 100%, 80%, .2);
+    --shadow: hsla(0, 0%, 0%, .25);
+    /* #endregion */
+
+    /* #region Fonts ================== */
+    --text-font: 'Poppins';
+    /* #endregion */
+}
+/* #endregion */
